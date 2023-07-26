@@ -1,0 +1,93 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(../imges/image.jpg);
+}
+#navigation{
+    padding: 8px;
+    overflow: auto;
+   
+}
+.main_name{
+    float: left;
+    font-weight: bold;
+    font-size: 20pt;
+    color: aliceblue;
+}
+.loggedin{
+    float: right;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15pt;
+}
+.logout{
+    text-decoration: none;
+    color: black;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 4%;
+}
+.loggedin a:hover{
+    background-color: rgb(156, 157, 158);
+}
+.container_1 a{
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+}
+.container_1 a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 3px;
+    border-radius: 5%;
+}
+.container_1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-style: solid;
+    margin: 50px;
+    margin-left: 600px;
+    
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    opacity: .8;
+    width: 600px;
+    font-weight: bold;
+}
+.one_line:after{
+    display: table;
+    content: "";
+    clear: both;
+}
+.one_line{
+   
+    padding: 4px;
+    font-size: 15pt;
+}
+
+.labels{
+    float: left;
+}
+.inputs{
+    float: right;
+    width: 300px;
+}
+.inputs input{
+    width: 100%;
+    font-size: 15pt;
+}
+
+.container_1 button{
+    padding: 3px;
+    font-size: 15pt;
+    margin: 10px 0px 0px 300px;
+    border-radius: 5%;  
+    font-weight: bold;
+}
+.container_1 button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.err_msg{
+    padding: 10px;
+}

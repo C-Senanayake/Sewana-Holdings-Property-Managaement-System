@@ -1,0 +1,123 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(../imges/final.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+}
+#navigation{
+    padding: 8px;
+    overflow: auto;
+   
+}
+.main_name{
+    float: left;
+    font-weight: bold;
+    font-size: 25pt;
+    color: rgb(0, 0, 0);
+    background-color: bisque;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 3px;
+}
+.loggedin{
+    float: right;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15pt;
+}
+.logout{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.loggedin a:hover{
+    background-color: rgb(156, 157, 158);
+}
+.name{
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+  padding: 3px;
+}
+.container_1 a{
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+}
+.container_1 a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.container_1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-style: solid;
+    margin: 5%;
+    margin-left: 28%;
+    
+    padding: 2%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    opacity: .8;
+    width: 43%;
+    font-weight: bold;
+}
+.one_line:after{
+    display: table;
+    content: "";
+    clear: both;
+}
+.one_line{
+   
+    padding: .6%;
+    font-size: 15pt;
+}
+.inputs select{
+    float: right;
+    width: 100%;
+    font-size: 15pt;
+}
+.labels{
+    float: left;
+}
+.inputs{
+    float: right;
+    width: 55%;
+}
+.inputs input{
+    width: 100%;
+    font-size: 15pt;
+}
+
+.container_1 button{
+    padding: 1%;
+    font-size: 15pt;
+    margin: 1% 0% 0% 45%;
+    border-style: solid;
+    border-color: rgb(134, 134, 134);
+    border-radius: 10px;  
+    font-weight: bold;
+}
+.container_1 button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.err_msg{
+    padding: 10px;
+}
